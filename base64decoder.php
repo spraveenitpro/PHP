@@ -3,7 +3,7 @@
 
 
 
-$file_handle = fopen("Mistral_tobe_Decoded.csv", "r");
+$file_handle = fopen("tobe_Decoded.csv", "r");
 $file_write = fopen("export.csv", "w");
 
 while (!feof($file_handle) ) {
